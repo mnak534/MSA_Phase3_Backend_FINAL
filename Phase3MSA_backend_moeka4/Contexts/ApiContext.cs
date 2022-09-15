@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Phase3MSA_backend_moeka4.Domain;
+using PizzaApi.Domain.Models;
 
-namespace Phase3MSA_backend_moeka4.Service.Repo
+namespace PizzaApi.Infrastructure.Contexts
 { 
     public class ApiContext : DbContext
     {
